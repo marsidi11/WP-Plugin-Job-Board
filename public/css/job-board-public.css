@@ -1,0 +1,98 @@
+.job-board-listings {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.job-listing {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.job-listing h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+.job-meta {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.job-categories, .job-skills {
+    margin: 5px 0;
+}
+
+.job-description {
+    margin-bottom: 15px;
+}
+
+.apply-button {
+    display: inline-block;
+    background-color: #0073aa;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.apply-button:hover {
+    background-color: #005177;
+}
+
+.job-board-form-wrapper {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.job-board-form .form-group {
+    margin-bottom: 15px;
+}
+
+.job-board-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.job-board-form input[type="text"],
+.job-board-form input[type="email"],
+.job-board-form input[type="tel"],
+.job-board-form textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.job-board-form button[type="submit"] {
+    background-color: #0073aa;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.job-board-form button[type="submit"]:hover {
+    background-color: #005177;
+}
+
+#job-board-form-message .success {
+    color: #4CAF50;
+    font-weight: bold;
+}
+
+#job-board-form-message .error {
+    color: #f44336;
+    font-weight: bold;
+}

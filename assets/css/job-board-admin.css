@@ -1,0 +1,30 @@
+.job-board-admin-wrapper {
+    margin: 20px 0;
+}
+
+.job-board-admin-wrapper .form-table {
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    border-radius: 4px;
+    padding: 20px;
+}
+
+.job-board-admin-wrapper .form-table th {
+    padding: 20px 10px 20px 0;
+    width: 200px;
+}
+
+.job-board-admin-wrapper .form-table td {
+    padding: 15px 10px;
+}
+
+.job-board-admin-wrapper input[type="text"],
+.job-board-admin-wrapper select {
+    width: 100%;
+    max-width: 400px;
+}
+
+.job-board-admin-wrapper .description {
+    font-style: italic;
+    color: #666;
+}
